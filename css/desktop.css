@@ -1,0 +1,406 @@
+
+.full-width {
+	width: 100%;
+}
+
+.fixed-width {
+	width: 1000px;
+	margin: auto;
+}
+
+/* header start */
+
+.header {
+	background-color: #4e5266;
+	height: 120px;
+	line-height: 90px;
+}
+
+h1 {
+	color: #fff;
+	font-size: 1.2rem;
+	font-weight: normal;
+	text-transform: uppercase; 
+	/* uppercase大寫 lowercase小寫*/
+	letter-spacing: 0.1rem;
+	float: left;
+}
+
+h1 span {
+	font-size: 1rem;
+	color: #ccc;
+	border-left: 1px solid #ccc;	
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+div.menu {
+	float: right;
+	line-height: 120px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	transition: color 0.3s;
+}
+
+.menu a:hover {
+	color:#ccc;
+	transition: color 0.3s;
+}
+
+.menu i {
+	margin-left: 0.2rem;
+}
+
+/* banner start */
+
+.banner {
+	background-color: #4e5266;
+	height: 600px;
+}
+
+.slider {
+	width: 600px;
+	height: 600px;
+	overflow: hidden;
+	float: right;
+}
+
+.slider img{
+	width:100%;
+}
+
+.banner .content {
+	width: 400px;
+	height: 500px;
+	float: left;
+}
+
+.banner .content div {
+	height: 220px;
+	padding: 40px;
+	text-align: center;
+}
+
+.banner .content div:nth-child(1) {
+	background-color: #4cabb1;
+}
+
+.banner .content div:nth-child(2) {
+	background-color: #69c7ad;
+}
+
+.banner a, .main a {
+	display: block;
+	color: #fff;
+	width: 120px;
+	line-height: 50px;
+	text-align:center;
+	margin:35px auto 0 auto;
+	background-color: rgba(255,255,255,0.3);
+	transition: background-color 0.3s;
+	text-transform: uppercase;
+	font-size:0.9rem;
+	text-decoration:none;
+	border-radius: 25px;
+}
+
+.banner a:hover, .main a:hover  {
+	background-color: rgba(255,255,255,0.4);
+	transition: background-color 0.5s;
+}
+
+.banner a {
+	background-color: rgba(255,255,255,0.3);
+}
+
+.banner a:hover {
+	background-color: rgba(255,255,255,0.4);
+}
+
+/* icon start */
+
+.icon {
+	background-color: #575b72;
+	text-align: center;
+}
+
+.icon .fixed-width {
+	background-color:#fff;
+	padding: 50px 0;
+	height: 400px;
+}
+
+.icon h2, .main h2{
+	color:#666;
+}
+
+.icon p, .main p {
+	color:#888;
+}
+
+.icon .fixed-width div {
+	margin-top: 20px;
+}
+
+.icon .fixed-width div .item {
+	width: calc(33.2% - 90px);
+	float: left;
+	border-right: 1px solid #aaa;
+	padding: 45px;
+}
+
+.icon .fixed-width div .item:last-child {
+	border-right: 0;
+}
+
+.icon i {
+	display: block;
+	width:80px;
+	height:80px;
+	text-align: center;
+	line-height: 80px;
+	border: 1px solid #aaa;
+	margin: auto;
+	font-size: 3rem;
+	border-radius: 50%;
+}
+
+.icon .fixed-width div .item:nth-child(1) i {
+	color: #FF2D2D;
+}
+
+.icon .fixed-width div .item:nth-child(2) i {
+	color: #7E3D76;
+}
+
+.icon .fixed-width div .item:nth-child(3) i {
+	color: #548C00;
+}
+
+/* banner_b start */
+
+.banner_b {
+	background-color: #575b72;
+	text-align: center;
+}
+
+.banner_b .desktop {
+	display: block;
+}
+
+.banner_b .phone {
+	display: none;
+}
+
+.banner_b .fixed-width {
+	background-color: #fed586;
+	padding: 60px 0;
+}
+
+.banner_b .fixed-width .item {
+	width:	700px;
+	margin: auto;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.banner_b .fixed-width .item img{
+	width: 100%;
+}
+
+.banner_b .item p {
+	color: #888;
+	width: 600px;
+	margin: 0 auto 40px auto;
+}
+
+/* main start */
+
+.main {
+	background-color: #575b72;
+	text-align: center;
+}
+
+.main .fixed-width {
+	background-color:#fff;
+	padding:60px 0;
+	height:800px;
+}
+
+.main .content {
+	width:900px;
+	height: 600px;
+	margin: 40px auto;
+	box-shadow: 0 0 5px 3px #999;
+	/* box-shadow: X Y 模糊 擴大 顏色 影子; */
+}
+
+.main .content div:nth-child(1) div:nth-child(1) {
+	width: 600px;
+	height:300px;
+	overflow: hidden;
+	float: right;
+}
+
+.main .content div:nth-child(1) div:nth-child(1) img{
+	width: 100%;
+	
+}
+
+.main .content div:nth-child(1) div:nth-child(2) {
+	width: 220px;
+	height:240px;
+	background-color: #fff;
+	float: left;
+	padding: 30px 40px;
+}
+
+.main .content div:nth-child(2) div:nth-child(1) {
+	width:300px;
+	height:300px;
+	overflow: hidden;
+	float: left;
+}
+
+.main .content div:nth-child(2) div:nth-child(1) img{
+	width:100%;
+}
+
+.main .content div:nth-child(2) div:nth-child(2) {
+	width:520px;
+	height:240px;
+	background-color: #fff;
+	float: right;
+	padding: 30px 40px;
+}
+
+.main a {
+	background-color: #415266;
+}
+
+.main a:hover {
+	background-color: #575b72;
+}
+
+/* form start */
+
+.form {
+	background-color: #575b72;
+	text-align: center;
+}
+
+.form .fixed-width {
+	background-color: #4cabb1;
+	padding: 50px 0;
+}
+
+form {
+	margin-top: 50px;
+}
+
+form input {
+	width: 380px;
+	height: 38px;
+	border-radius: 19px 0 0 19px;
+	/* border-radius: 左上 右上 右下 左下; 變圓角 */
+	border: 0;
+	outline: none;
+	/* outline: input 特有多一個外框 */
+	text-indent: 20px;
+	/* text-indent: 打字起點往後 */
+}
+
+form button {
+	width: 110px;
+	line-height: 38px;
+	border-radius: 0 20px 20px 0;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	border: 0;
+	outline: none;
+	background-color: rgba(255,255,255,0.2);
+	transition: background-color 0.3s;
+	box-shadow: 2px 0 5px #999;
+}
+
+form button:hover {
+	background-color: rgba(255,255,255,0.3);
+	transition: background-color 0.3s;
+	cursor:pointer;
+	/* cursor:pointer;滑鼠變成手 */
+}
+
+/* map srart */
+
+.map {
+	background-color: #4e5266;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.map div div {
+	width: 24.9%;
+	float: left;
+	border-right: 1px solid #ccc;
+	padding: 30px 0;
+}
+
+.map div div:last-child {
+	border-right-width: 0;
+}
+
+.map h4 {
+	color: #fff;
+}
+
+.map ul {
+	list-style:none;
+	padding: 0;
+}
+
+.map li {
+	line-height: 36px;
+}
+
+.map a, .footer a {
+	text-decoration: none;
+	color:#ccc;
+	font-size: 0.85rem;
+	border-bottom: 1px dotted #4e5266;
+	transition: border-bottom 0.3s;
+}
+
+.map a:hover, .footer a:hover {
+	border-bottom: 1px dotted #ccc;
+	transition: border-bottom 0.3s;
+}
+
+/* footer start */
+
+.footer {
+	background-color: #4e5266;
+	text-align: center;
+	padding: 30px 0;
+	color: #ccc;
+	font-size: 0.85rem;
+}
+
+.footer p {
+	color: #ccc;
+	margin-top: 25px;
+}
+
+.footer span {
+	margin: 0 20px;
+}
+
+.footer i {
+	margin-right:6px;
+}

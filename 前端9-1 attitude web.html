@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>前端9-1 ATTITUDE網站 </title>
+
+<link href="fontawesome/css/all.css" rel="stylesheet">
+<link href="css/desktop.css" rel="stylesheet" media="screen and (min-width: 1000px)">
+<link href="css/phone.css" rel="stylesheet" media="screen and (max-width: 999.9px)">
+<link href="css/global.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+<script>
+	$('document').ready(function(){
+		$('.slider ul').bxSlider({
+			mode:'fade',
+			controls: false,
+			auto: true,
+			pager: false,
+		});
+		
+		$('.banner_b .desktop').addClass('m0').bxSlider({
+			captions: true
+		});
+		
+		$('.menu a').click(function(){
+			$('.navigator').animate({right: 0},'slow')
+		});
+		
+		$('.navigator p a').click(function(){
+			$('.navigator').animate({right: '-340px'},'slow')
+		});
+  
+	});
+	
+</script>
+</head>
+<body>
+<div class="header full-width clearfix">
+	<div class="fixed-width">
+		<h1 class="logo">
+			Attitude<span>By Pixelarity</span>
+		</h1>
+		<div class="menu"><a href="#" target="_self">Menu<i class="fas fa-bars"></i></a></div>
+	</div>
+</div>
+<div class="navigator">
+	<p><a href="#"><i class="far fa-times-circle"></i></a></p>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Generic</a></li>
+		<li><a href="#">Elements</a></li>
+	</ul>
+	<div>
+		<a href="#">Sign Up</a>
+		<a href="#">Log in</a>
+	</div>
+</div>
+<div class="banner full-width clearfix">
+	<div class="fixed-width">
+		<div class="slider">
+			<ul>
+				<li><img src="images/123.jpg"></li>
+				<li><img src="images/aa.jpg"></li>
+				<li><img src="images/bb.jpg"></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div>
+				<h2>Sed LOREM</h2>
+				<p>Sed oedmaso, ante vulputate viate luctus metus libero aliquam</p>
+				<a href="#" target="_self">More</a>
+			</div>
+			<div>
+				<h2>AMT MAGNA</h2>
+				<p>Sed oedmaso, ante vulputate viate luctus metus libero aliquam</p>
+				<a href="#" target="_self">More</a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="icon full-width clearfix">
+	<div class="fixed-width">
+		<h2>LOREM IPSUM DOLOR</h2>
+		<p>Sed egestas dasddmkma</p>
+		<div>
+			<div class="item">
+				<i class="fab fa-d-and-d"></i>
+				<h4>LOREM SOADsadjpo ASDIJIOMI</h4>
+				<p>Loeda ddmiioq asdmasm admasdm asdmpkmoad</p>
+			</div>
+			<div class="item">
+				<i class="fab fa-jedi-order"></i>
+				<h4>LOREM SOADsadjpo ASDIJIOMI</h4>
+				<p>Loeda ddmiioq asdmasm admasdm asdmpkmoad</p>
+			</div>
+			<div class="item">
+				<i class="fab fa-phoenix-framework"></i>
+				<h4>LOREM SOADsadjpo ASDIJIOMI</h4>
+				<p>Loeda ddmiioq asdmasm admasdm asdmpkmoad</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="banner_b full-width ">
+	<div class="fixed-width">
+		<div class="desktop">
+			<div class="item">
+				<div>
+					<img src="images/bb.jpg">
+				</div>
+				<div>
+					<h4>MASID OAIWP</h4>
+					<p>ASDSAd adaad asdasdas asddasad asdasd jaopsdl aposdkpodqpj asdopaso asdkp</p>
+				</div>
+			</div>
+			<div class="item">
+				<div>
+					<img src="images/aa.jpg">
+				</div>
+				<div>
+					<h4>CAasda OAIWP</h4>
+					<p>ad asdiuluykyu yukyusddasad asdasd jaopsdl aposdkpodqpj asdopaso asdkp</p>
+				</div>
+			</div>
+			<div class="item">
+				<div>
+					<img src="images/123.jpg">
+				</div>
+				<div>
+					<h4>DasdaID OAIWP</h4>
+					<p>ahukyuk jkydtys asddasad asdasd jaopsdl aposdkpodqpj asdopaso asdkp</p>
+				</div>
+			</div>
+		</div>
+		<div class="phone">
+			<div class="item">
+				<div>
+					<img src="images/bb.jpg">
+				</div>
+				<div>
+					<h4>MASID OAIWP</h4>
+					<p>ASDSAd adaad asdasdas asddasad asdasd jaopsdl aposdkpodqpj asdopaso asdkp</p>
+				</div>
+			</div>
+			<div class="item">
+				<div>
+					<img src="images/aa.jpg">
+				</div>
+				<div>
+					<h4>CAasda OAIWP</h4>
+					<p>ad asdiuluykyu yukyusddasad asdasd jaopsdl aposdkpodqpj asdopaso asdkp</p>
+				</div>
+			</div>
+			<div class="item">
+				<div>
+					<img src="images/123.jpg">
+				</div>
+				<div>
+					<h4>DasdaID OAIWP</h4>
+					<p>ahukyuk jkydtys asddasad asdasd jaopsdl aposdkpodqpj asdopaso asdkp</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>		
+<div class="main full-width clearfix">
+	<div class="fixed-width">
+		<h2>SED SDES GEFF</h2>
+		<p>LSOJDSO LMLSD ASLDP AS</p>
+		<div class="content">
+			<div>
+				<div>
+					<img src="images/aaa.jpg">
+				</div>
+				<div>
+					<h4>ALIQUM</h4>
+					<p>Morve owokds okowdm asokdpok aspdkposa alpsdp asdpk asdkp</p>
+					<a href="#" target="_self">More</a>
+				</div>
+			</div>
+			<div>
+				<div>
+					<img src="images/bb.jpg">
+				</div>
+				<div>
+					<h4>PELLEMTESQUE</h4>
+					<p>Mssd adqp,das plpd,lasp paspd sapldp sdp asdas asdasd asdasd asdasad asdasd as asdasdad asdasd a asdasd ad a s asd a sasa a </p>
+					<a href="#" target="_self">More</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+<div class="form full-width">
+	<div class="fixed-width">
+		<h2>GET MOSAD</h2>
+		<p>Lasdo adpqopo adkpqok ,qskdp pokokdsa kopqokd okqokdp paoskodk</p>
+		<form>
+			<input type="text" name="email" placeholder="Email address"><button>Sign up</button>
+		</form>
+	</div>
+</div>
+<div class="map full-width clearfix">
+	<div class="fixed-width">
+		<div>
+			<h4>ALIQUM</h4>
+			<ul>
+				<li><a href="#" target="_self">Aluiqs</a></li>
+				<li><a href="#" target="_self">ULteries nul</a></li>
+				<li><a href="#" target="_self">Geiircal alds</a></li>
+				<li><a href="#" target="_self">Kwkdmka wmqkdwm</a></li>
+			</ul>
+		</div>
+		<div>
+			<h4>FADWDS</h4>
+			<ul>
+				<li><a href="#" target="_self">Aluiqs</a></li>
+				<li><a href="#" target="_self">ULteries nul</a></li>
+				<li><a href="#" target="_self">Geiircal alds</a></li>
+				<li><a href="#" target="_self">Kwkdmka wmqkdwm</a></li>
+			</ul>
+		</div>
+		<div>
+			<h4>GASDWQW</h4>
+			<ul>
+				<li><a href="#" target="_self">Aluiqs</a></li>
+				<li><a href="#" target="_self">ULteries nul</a></li>
+				<li><a href="#" target="_self">Geiircal alds</a></li>
+				<li><a href="#" target="_self">Kwkdmka wmqkdwm</a></li>
+			</ul>
+		</div>
+		<div>
+			<h4>CSADWQS</h4>
+			<ul>
+				<li><a href="#" target="_self">Aluiqs</a></li>
+				<li><a href="#" target="_self">ULteries nul</a></li>
+				<li><a href="#" target="_self">Geiircal alds</a></li>
+				<li><a href="#" target="_self">Kwkdmka wmqkdwm</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="footer full-width">
+	<div>
+		<span><i class="fas fa-hotel"></i>>1234 Fictional Street #5432 Nashville, TN 00000-0000</span>
+		<span><i class="fas fa-phone-alt"></i><a href="#">(000) 000-0000</a></span>
+		<span><i class="fas fa-mail-bulk"></i><a href="mailto:enjoy102034@gmail.com" target="_blank">enjoy102034@gmail.com</a></span>
+	</div>
+	<p>&copy Askekd. All rights reserved.</p>
+</div>
+<h2>Single Item</h2>
+			<div class=" slider single-item">
+				<div>
+					<h3>1</h3>
+				</div>
+				<div>
+					<h3>2</h3>
+				</div>
+				<div>
+					<h3>3</h3>
+				</div>
+				<div>
+					<h3>4</h3>
+				</div>
+				<div>
+					<h3>5</h3>
+				</div>
+				<div>
+					<h3>6</h3>
+				</div>
+			</div>
+</body>
+</html>
