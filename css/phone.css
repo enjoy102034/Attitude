@@ -187,6 +187,9 @@ div.menu {
 }
 
 /* banner_b start */
+.bx-wrapper{
+ display:none
+}
 
 .banner_b {
 	background-color: #575b72;
